@@ -1,0 +1,115 @@
+body{
+    background-color: #02042B;
+    margin: 0px;
+}
+h1{
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+.boxOne{
+    color: white;
+    height: auto;
+    width: 50%;
+    float: left;
+    font-size: 20px;
+    padding-right: 35px;
+    padding-top: 100px;
+    
+}
+.h3{
+    font-size: 60px;
+    padding-left: 20px; 
+}
+
+.boxTwo{
+    
+    display: inline-block;
+    float:right;
+    padding-left: 20px;
+
+}
+
+intro{
+    font-size: 15px;
+}
+
+.lop{
+    background-color: #2B84EA;
+    color: white;
+    font-style: italic;
+    font-size: 35px;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 180px;
+    height: 110px;
+}
+.container{
+    padding: 20px 25px;
+    margin-top: 30px;
+     border: 1px solid grey;
+     display: flex;width: 50%;
+     flex-wrap: wrap;
+     background-color: #181C2E;
+     width: fit-content;
+     height: auto;
+     border-radius: 20px;
+     margin-bottom: 25px;
+     margin-left: 50px;
+     
+ 
+ }
+
+
+.second{
+    
+    background-color: #181C2E;
+    padding-top: 25px;
+    margin-right: 90px;
+    color: antiquewhite;
+    width: 1250px;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    flex-wrap: wrap;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.checkOne, .checkTwo, .checkThree{
+    border: 1px solid white;
+    height: 200px;
+    width: 400px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    
+    justify-content: center;
+}
+.checkOne{
+    width: 200px;
+    margin-left: 25px;
+    justify-items: center;
+    padding: 20px 20px;
+    margin-right: 20px;
+}
+.checkTwo{
+   justify-content: center;
+   padding: 20px 20px;
+   width: auto;
+   margin-right: 25px;
+}
+.checkThree{
+    justify-content: center;
+    
+   padding: 20px 20px;
+}
+a:link{
+    background-color: #2B84EA;
+    font-size: 25px;
+    color: azure;
+}
